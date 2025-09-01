@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: test.ContaServiceTest$TestsTransferencia
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! -- in test.ContaServiceTest$TestsTransferencia
+test.ContaServiceTest$TestsTransferencia.deveRejeitarTransferenciaParaMesmaConta -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsTransferencia.setUp(ContaServiceTest.java:265)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsTransferencia.deveRealizarTransferenciaComDadosValidos -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsTransferencia.setUp(ContaServiceTest.java:265)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsTransferencia.deveRejeitarTransferenciaComContaDestinoInexistente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsTransferencia.setUp(ContaServiceTest.java:265)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsTransferencia.deveRejeitarTransferenciaComContaOrigemInexistente -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsTransferencia.setUp(ContaServiceTest.java:265)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsTransferencia.deveRejeitarTransferenciaComSaldoInsuficiente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsTransferencia.setUp(ContaServiceTest.java:265)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

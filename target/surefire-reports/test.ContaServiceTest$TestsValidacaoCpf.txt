@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: test.ContaServiceTest$TestsValidacaoCpf
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in test.ContaServiceTest$TestsValidacaoCpf
+test.ContaServiceTest.deveRetornarTotalDeContasCorreto -- Time elapsed: 0.082 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest.deveRetornarTotalDeContasCorreto(ContaServiceTest.java:486)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsValidacaoCpf.deveAceitarCpfValido -- Time elapsed: 0.016 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at sistema.bancario/test.ContaServiceTest$TestsValidacaoCpf.deveAceitarCpfValido(ContaServiceTest.java:442)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsValidacaoCpf.lambda$deveAceitarCpfValido$0(ContaServiceTest.java:443)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 7 more
+

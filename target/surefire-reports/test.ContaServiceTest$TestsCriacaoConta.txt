@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: test.ContaServiceTest$TestsCriacaoConta
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! -- in test.ContaServiceTest$TestsCriacaoConta
+test.ContaServiceTest$TestsCriacaoConta.deveRejeitarCriacaoComCpfJaCadastrado -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at sistema.bancario/test.ContaServiceTest$TestsCriacaoConta.deveRejeitarCriacaoComCpfJaCadastrado(ContaServiceTest.java:122)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsCriacaoConta.deveGerarIdUnicoParaCadaConta -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsCriacaoConta.deveGerarIdUnicoParaCadaConta(ContaServiceTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

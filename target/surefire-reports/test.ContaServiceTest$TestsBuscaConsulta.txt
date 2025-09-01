@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: test.ContaServiceTest$TestsBuscaConsulta
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! -- in test.ContaServiceTest$TestsBuscaConsulta
+test.ContaServiceTest$TestsBuscaConsulta.deveRetornarVazioParaIdInexistente -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsBuscaConsulta.deveListarTodasAsContas -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsBuscaConsulta.deveBuscarContasPorNome -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsBuscaConsulta.deveBuscarContaPorIdExistente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsBuscaConsulta.deveConsultarSaldoDeContaExistente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+test.ContaServiceTest$TestsBuscaConsulta.deveRejeitarConsultaSaldoParaContaInexistente -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalArgumentException: Erro ao criar conta: CPF inválido
+	at sistema.bancario/service.ContaService.criarConta(ContaService.java:64)
+	at sistema.bancario/test.ContaServiceTest$TestsBuscaConsulta.setUp(ContaServiceTest.java:358)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
