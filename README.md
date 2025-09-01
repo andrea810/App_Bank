@@ -252,15 +252,3 @@ mvn test -Dtest=ContaServiceTest
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 👨‍💻 Autor
-
-Desenvolvido com ❤️ usando Java e JavaFX
-
----
-
-**Sistema Bancário** - Uma solução completa para gerenciamento de contas bancárias com interface moderna e arquitetura robusta.
