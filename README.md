@@ -62,32 +62,7 @@ sistema_bancario/
 - **Maven 3.9.9** ou superior
 - **JavaFX 21** (incluído nas dependências)
 
-## 🚀 Como Executar
 
-### 1. Clone o repositório
-```bash
-git clone <url-do-repositorio>
-cd App_Bank
-```
-
-### 2. Compile o projeto
-```bash
-mvn clean compile
-```
-
-### 3. Execute os testes
-```bash
-mvn test
-```
-
-### 4. Execute a aplicação
-```bash
-mvn javafx:run
-```
-
-Ou execute diretamente a classe principal:
-```bash
-mvn exec:java -Dexec.mainClass="app.BankApp"
 ```
 
 ## 🎯 Como Usar
@@ -245,10 +220,3 @@ mvn test -Dtest=ContaServiceTest
 5. Sacar R$ 200,00 da conta do João
 6. Consultar saldos finais
 
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
