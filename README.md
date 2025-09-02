@@ -167,6 +167,14 @@ mvn test -Dtest=ContaServiceTest
 
 ## 🎨 Interface Gráfica
 
+<img width="1206" height="826" alt="image" src="https://github.com/user-attachments/assets/36b58bc4-01ca-4743-8bf2-116b96fc3d1f" />
+
+<img width="1200" height="824" alt="image" src="https://github.com/user-attachments/assets/ffd3cc4f-62a9-4375-8581-d388c6711d4d" />
+
+<img width="1197" height="825" alt="image" src="https://github.com/user-attachments/assets/e12871a8-4d62-442e-89d4-3b2469575479" />
+
+<img width="1197" height="829" alt="image" src="https://github.com/user-attachments/assets/5ef468ea-140e-4f45-9389-a17ca0367512" />
+
 ### **Design Moderno**
 - Interface responsiva e intuitiva
 - Cores e ícones que facilitam a navegação
